@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+h1{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.forma{
+    width: 30vw;
+}
+form{
+    margin: 2rem;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 1rem;
+}
+.form4{
+    margin: 1rem;
+    height: 5rem;
+    width: 30rem;
+    text-align: start;
+}
+.form3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 3rem;
+    border: 2px solid black;
+}
+.form2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3rem;
+    border: 2px solid black;
+}
+.form1{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.comentarios{
+    border: 2px solid black;
+
+}
+footer{
+    display: flex;
+    font-size: 150%;
+    justify-content: center;
+}
+.mapa{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0.5rem;
+}
+input, label{
+    margin: 0.2rem;
+}
+.submit:hover{
+    transform: scale(1.5);
+    color: red;
+
+}
